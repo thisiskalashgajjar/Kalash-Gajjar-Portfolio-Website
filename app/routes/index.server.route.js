@@ -13,10 +13,6 @@ router.get('/contactus',(req,res,next)=>{
     res.render('contactus', {title:'Contact Us'})
 })
 
-router.get('/services',(req,res,next)=>{
-    res.render('services', {title:'Services'})
-})
-
 router.get('/projects',(req,res,next)=>{
     res.render('projects', {title:'Projects'})
 })
